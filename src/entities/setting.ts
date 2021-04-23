@@ -4,9 +4,9 @@ import {
     CreateDateColumn, 
     UpdateDateColumn, 
     PrimaryColumn
-} from "typeorm"
+} from "typeorm";
 
-import { v4 as uuid} from "uuid"
+import { v4 as uuid} from "uuid";
 
 @Entity("settings")
 class setting {
@@ -24,7 +24,7 @@ class setting {
     update_at:Date;
 
     @CreateDateColumn()
-    created_at:Date
+    created_at:Date;
 
     constructor() {
         if(!this.id){
@@ -33,4 +33,4 @@ class setting {
     }
 }
 
-export { setting}
+export { setting};

@@ -6,4 +6,4 @@ class SettingsRepository extends Repository<setting>{
 
 }
 
-export {SettingsRepository}
+export {SettingsRepository};
