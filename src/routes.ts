@@ -7,11 +7,11 @@ const routes = Router();
 
 /** 
  * tipos de parâmetros
- * Routes params => parametros de rotas ex:
+ * Routes params => parâmetros de rotas ex:
  * http://localhost:3333/settings/1
  * query params => filtros e buscas
  * http://localhost:3333/settings/1?search=algumacoisa
- * bodys params => {
+ * body params => {
  *      json
  * }  
 */
