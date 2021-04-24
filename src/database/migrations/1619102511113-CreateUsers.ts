@@ -26,7 +26,7 @@ export class CreateUsers1619102511113 implements MigrationInterface {
 
                 ]
             })
-        )
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {

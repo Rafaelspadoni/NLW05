@@ -34,7 +34,7 @@ export class CreateSettings1618936117359 implements MigrationInterface {
                     }
                 ]
             })
-        )
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {

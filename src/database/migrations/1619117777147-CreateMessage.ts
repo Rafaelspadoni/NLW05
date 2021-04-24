@@ -43,7 +43,7 @@ export class CreateMessage1619117777147 implements MigrationInterface {
                     }
                 ] 
             })
-        )
+        );
     }
 
     public async down(queryRunner: QueryRunner): Promise<void> {
